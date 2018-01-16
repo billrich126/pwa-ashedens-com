@@ -60,10 +60,10 @@ Enquiry.schema.methods.sendNotificationEmail = function (callback) {
 		}).send({
 			to: admins,
 			from: {
-				name: 'ashedens.com',
-				email: 'contact@ashedens-com.com',
+				name: 'ashedens',
+				email: 'contact@ashedens.com',
 			},
-			subject: 'New Enquiry for ashedens.com',
+			subject: 'New Enquiry for ashedens',
 			enquiry: enquiry,
 			brand: brand,
 			layout: false,

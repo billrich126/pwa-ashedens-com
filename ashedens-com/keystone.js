@@ -11,8 +11,8 @@ var handlebars = require('express-handlebars');
 // and documentation.
 
 keystone.init({
-	'name': 'ashedens.com',
-	'brand': 'ashedens.com',
+	'name': 'ashedens',
+	'brand': 'ashedens',
 
 	'less': 'public',
 	'static': 'public',
